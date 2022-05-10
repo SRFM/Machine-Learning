@@ -1,0 +1,7 @@
+1) K-Means with r1 representation - purity ~= 0.55, f_measure ~= 0,15 (if you get smaller rate, run it again, it's beacause of randomness)
+2) K-Means with r2 representation - purity ~= 0.10, f_measure ~= 0,10
+3) K-Medoids only for r2 representation - purity ~= 0.11 , f_measure ~= 0.10 (if it says to restart runtime the first time, do it and it will be ok)
+4) Hierarchical Clustering with r1 representation - purity ~= 0.45, f_measure ~= 0.11 (for all three distances euclidean/manhattan/cosine, cosine will be a little smaller)
+5) Hierarchical Clustering with r2 representation - purity ~= 0.10 , f_measure ~= 0.10 (for all three distances euclidean/manhattan/cosine)
+
+so the best one is K-Means with r1 representation
